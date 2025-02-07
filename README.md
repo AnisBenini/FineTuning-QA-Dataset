@@ -1,7 +1,7 @@
-# NLP QA Project with LLama 3.2 3B
+# NLP QA Project with LLama 3.2 1B
 
 ## Project Overview
-This project focuses on developing a Question-Answering (QA) system using the LLama 3.2 3B model. By leveraging state-of-the-art Natural Language Processing (NLP) techniques, we aim to provide accurate and efficient answers to user queries based on a dataset from Hugging Face.
+This project focuses on developing a Question-Answering (QA) system using the LLama 3.2 1B model. By leveraging state-of-the-art Natural Language Processing (NLP) techniques, we aim to provide accurate and efficient answers to user queries based on a dataset from Hugging Face.
 
 ## Dataset
 We utilize a QA dataset sourced from Hugging Face. The dataset has been carefully chosen to ensure its quality and relevance to the project. It contains:
@@ -10,13 +10,13 @@ We utilize a QA dataset sourced from Hugging Face. The dataset has been carefull
 - Answers: Ground truth labels for supervised training.
 
 ## Model
-We have selected the LLama 3.2 3B model for this project due to its:
+We have selected the LLama 3.2 1B model for this project due to its:
 - High performance in NLP tasks.
 - Ability to handle large-scale QA datasets effectively.
 - Flexibility in fine-tuning for domain-specific use cases.
 
 ## Project Objectives
-1. Fine-tune LLama 3.2 3B on the QA dataset to improve its performance.
+1. Fine-tune LLama 3.2 1B on the QA dataset to improve its performance.
 2. Evaluate the model using established metrics such as Exact Match (EM) and F1 score.
 3. Deploy the model for real-time QA tasks via a simple and user-friendly interface.
 
@@ -39,9 +39,9 @@ python preprocess_data.py --input path/to/dataset --output path/to/preprocessed/
 ```
 
 ## Training the Model
-Fine-tune the LLama 3.2 3B model using the training script:
+Fine-tune the LLama 3.2 1B model using the training script:
 ```bash
-python train.py --data path/to/preprocessed/data --model llama-3.2-3b --output path/to/model/output
+python train.py --data path/to/preprocessed/data --model llama-3.2-1B --output path/to/model/output
 ```
 
 ## Evaluation
@@ -91,5 +91,5 @@ We welcome contributions! Please follow these steps:
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Acknowledgments
-We thank Hugging Face  for providing the creators of LLama 3.2 3B & Kaggle for the QA Dataset for their contributions to open-source NLP.
+We thank Hugging Face  for providing the creators of LLama 3.2 1B & Kaggle for the QA Dataset for their contributions to open-source NLP.
 
