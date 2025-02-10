@@ -27,7 +27,7 @@ We have selected the LLama 3.2 1B & GPT2 Large model for this project due to its
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AnisBenini/QA-project.git
+   git clone https://github.com/AnisBenini/FineTuning-QA_Dataset.git
    cd QA-project
    ```
 ## Dataset Preparation
@@ -36,7 +36,7 @@ Link : https://www.kaggle.com/datasets/thedevastator/glaive-python-code-qa-datas
 
 
 ## Training the Model
-Fine-tune the LLama 3.2 1B & GPT2 Large models using the training script:
+Fine-tune the LLaMa 3.2 1B & GPT2 Large models using the training script:
 
 
 
