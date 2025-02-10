@@ -4,10 +4,16 @@
 This project focuses on developing a Question-Answering (QA) system using the LLama 3.2 1B & GPT2 Large model. By leveraging state-of-the-art Natural Language Processing (NLP) techniques, we aim to provide accurate and efficient answers to user queries based on a dataset from Hugging Face.
 
 ## Dataset
-We utilize a QA dataset sourced from Hugging Face. The dataset has been carefully chosen to ensure its quality and relevance to the project. It contains:
-- Questions: Diverse types of questions, including factual, conceptual, and open-ended.
-- Contexts: Supporting passages or documents from which the answers can be derived.
-- Answers: Ground truth labels for supervised training.
+
+We utilize the **Glaive Code Assistant dataset** sourced from [Kaggle](https://www.kaggle.com/datasets/thedevastator/glaive-python-code-qa-dataset). This dataset contains approximately **140,000 code-related questions and solutions** designed to support the development of intelligent Python code assistants.
+
+### Key Features:
+- **Questions:** Real-world user questions covering a wide range of coding issues, from basic data types to complex object-oriented programming concepts.  
+- **Solutions:** Corresponding answers providing detailed code solutions for the questions posed.  
+- **Focus:** Around **60% of the content is Python-based**, making it highly relevant for Python-focused QA systems.
+
+By leveraging this dataset, developers can create automated systems capable of accurately responding to coding queries, improving development efficiency, and simplifying workflows for both beginners and advanced programmers.
+
 
 ## Model
 We have selected the LLama 3.2 1B & GPT2 Large model for this project due to its:
